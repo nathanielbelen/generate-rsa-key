@@ -10,10 +10,14 @@ this is a quick python script I used for generating an RSA key pair with user-de
    ```sh
    pip install rsa
 
-1. **run the script**:
+2. **run the script**:
    ```sh
    python main.py
 
+2. public and private keys are outputted in the *keys* directory
+
 important resources:
+
 https://www.keylength.com/en/4/
+
 https://crypto.stackexchange.com/questions/3110/impacts-of-not-using-rsa-exponent-of-65537
