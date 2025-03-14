@@ -11,7 +11,7 @@ print("Generating an RSA key pair...")
 
 public_exponent = get_input("What public exponent to use? (empty for 65537): ", "65537")
 
-key_sizes = [512, 1024, 2048, 4096]
+key_sizes = [512, 1024, 2048, 3072, 4096]
 print("Select a key size.. (recommended 2048)")
 
 for i, size in enumerate(key_sizes, 1):
