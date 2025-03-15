@@ -68,8 +68,8 @@ with open(PRIVATE_KEY_PATH, 'wb') as f:
     f.write(private_key.save_pkcs1('PEM'))
 
 with open('./keys/last_generation.txt', 'w') as f:
-    f.write(f"  Time: {current_time}\n")
-    f.write(f"  Key Size: {key_size} bits\n")
-    f.write(f"  Public Exponent: {public_exponent}\n")
+    f.write(f" Time: {current_time}\n")
+    f.write(f" Key Size: {key_size} bits\n")
+    f.write(f" Public Exponent: {public_exponent}\n")
 
 print("\n RSA key pair generated and saved in 'keys' directory.")
